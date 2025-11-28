@@ -1,6 +1,5 @@
-# Longest_Balanced_Subarray
-#Shubham
 Longest Balanced Subarray
+Shubham
 
 This project provides a C++ implementation to find the length of the longest balanced subarray, where the number of distinct even elements equals the number of distinct odd elements.
 
@@ -8,17 +7,20 @@ This project provides a C++ implementation to find the length of the longest bal
 
 A subarray is considered balanced if:
 
-The count of unique even numbers = the count of unique odd numbers
+The count of unique even numbers
+equals
 
-This program checks all possible subarrays using a brute-force approach and returns the maximum length of such a balanced subarray.
+The count of unique odd numbers
+
+The program checks all possible subarrays (brute-force approach) and returns the maximum length of any balanced subarray.
 
 📌 Features
 
 Counts distinct even and distinct odd numbers in each subarray
 
-Uses unordered_set for efficient uniqueness checking
+Uses unordered_set for uniqueness
 
-Brute-force algorithm with nested loops
+Brute-force algorithm using nested loops
 
 Clean and easy-to-understand implementation
 
@@ -34,7 +36,12 @@ Even → stores unique even numbers
 
 Odd → stores unique odd numbers
 
-Whenever Even.size() == Odd.size(), update the longest length
+Whenever
+
+Even.size() == Odd.size()
+
+
+update the longest balanced length
 
 Print the maximum balanced subarray length
 
@@ -55,7 +62,7 @@ Space: O(n) — sets for storing distinct values
 
 C++
 
-STL (vector, unordered_set)
+STL: vector, unordered_set
 
 📄 Code Snippet
 class Solution {

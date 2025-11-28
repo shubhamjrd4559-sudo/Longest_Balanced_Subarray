@@ -71,7 +71,6 @@ public:
                     Even.insert(nums[j]);
                 else
                     Odd.insert(nums[j]);
-
                 if (Even.size() == Odd.size())
                     ans = max(ans, j - i + 1);
             }
